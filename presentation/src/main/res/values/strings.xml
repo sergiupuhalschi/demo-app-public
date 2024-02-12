@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Demo App</string>
+
+    <string name="General_Error_Title">Something went wrong</string>
+    <string name="General_Error_Message">An error occurred, please try again later.</string>
+    <string name="General_InternetError_Title">Oops… Something went wrong</string>
+    <string name="General_InternetError_Message">Please check your internet connection or try again later.</string>
+    <string name="General_Success_Title">Success</string>
+    <string name="General_Confirm">Confirm</string>
+    <string name="General_OK">OK</string>
+    <string name="General_Cancel">Cancel</string>
+    <string name="General_Close">Close</string>
+    <string name="General_Next">Next</string>
+    <string name="General_Yes">Yes</string>
+    <string name="General_No">No</string>
+    <string name="General_OptionsDialogTitle">Pick an option</string>
+
+    <string name="Welcome_Title">Welcome to\n%s</string>
+    <string name="Welcome_NextBtn">Get Started</string>
+
+    <string name="BottomTabs_HomeTitle">Home</string>
+    <string name="BottomTabs_AccountTitle">Account</string>
+
+    <string name="Home_Title">Richest People\nin the World</string>
+    <string name="Home_Empty">No results yet</string>
+    <string name="Home_NetWorthLabel">Net Worth</string>
+
+    <string name="Account_SignOut_Btn">Sign Out</string>
+    <string name="Account_SignOut_ConfirmationTitle">Are you sure you want to Log Out?</string>
+    <string name="Account_SignOut_ConfirmationPositiveBtn">Log Out</string>
+</resources>

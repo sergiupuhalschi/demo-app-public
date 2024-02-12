@@ -1,0 +1,120 @@
+[versions]
+#Core
+agp = "8.2.2"
+googleServices = "4.4.1"
+kotlin = "1.9.22"
+ksp = "1.9.21-1.0.16"
+coreKtx = "1.12.0"
+coroutines = "1.7.3"
+
+#UI
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.8.2"
+composeBom = "2024.02.00"
+appcompat = "1.6.1"
+composeCompiler = "1.5.9"
+composeViewModel = "2.7.0"
+
+#Networking
+moshi = "1.15.0"
+retrofit = "2.9.0"
+okHttpLogging = "4.12.0"
+
+#Storage
+dataStore = "1.0.0"
+room = "2.6.1"
+
+#Firebase
+firebaseBom = "32.7.2"
+firebaseUiAuth = "7.2.0"
+firebaseCrashlyticsGradle = "2.9.9"
+firebaseCoroutines = "1.7.3"
+googlePlayAuth = "20.7.0"
+
+#Utils
+timber = "4.7.1"
+koinBom = "3.5.3"
+coil = "2.5.0"
+reactiveNetwork = "1.0.4"
+
+#Testing
+junit = "4.13.2"
+junitExt = "1.1.5"
+mockito = "5.8.0"
+mockitoKotlin = "5.2.1"
+mockitoInline = "5.2.0"
+mockk = "1.12.4"
+coroutinesTest = "1.5.2"
+espressoCore = "3.5.1"
+uiTestManifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+uiTestJunit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+
+[libraries]
+#Core
+coreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+
+#UI
+lifecycleRuntimeKtx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+activityCompose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+composeBom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+uiGraphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+uiTooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+uiToolingPreview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "androidx.compose.material", name = "material" }
+viewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "composeViewModel" }
+icons = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+#Networking
+moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+moshiCodegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofitMoshiConverter = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+okHttpLogging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttpLogging" }
+
+#Storage
+dataStore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "dataStore" }
+roomRuntime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+roomCompiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+roomKtx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+#Firebase
+firebaseBom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebaseAuth = { group = "com.google.firebase", name = "firebase-auth" }
+firebaseCrashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-ktx" }
+firebaseAnalytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebaseUiAuth = { group = "com.firebaseui", name = "firebase-ui-auth", version.ref = "firebaseUiAuth" }
+firebaseCoroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-play-services", version.ref = "firebaseCoroutines" }
+googlePlayAuth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "googlePlayAuth" }
+
+#Utils
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+koinBom = { group = "io.insert-koin", name = "koin-bom", version.ref = "koinBom" }
+koinAndroid = { group = "io.insert-koin", name = "koin-android" }
+koinCompose = { group = "io.insert-koin", name = "koin-androidx-compose" }
+koinNavigation = { group = "io.insert-koin", name = "koin-androidx-compose-navigation" }
+coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+reactiveNetwork = { group = "ru.beryukhov", name = "flowreactivenetwork", version.ref = "reactiveNetwork" }
+
+#Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junitExt = { group = "androidx.test.ext", name = "junit", version.ref = "junitExt" }
+espressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+mockitoAndroid = { group = "org.mockito", name = "mockito-android", version.ref = "mockito" }
+mockitoKotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
+mockitoInline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+coroutinesTest = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutinesTest" }
+koinTest = { group = "io.insert-koin", name = "koin-test-junit4" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+firebaseCrashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlyticsGradle" }
